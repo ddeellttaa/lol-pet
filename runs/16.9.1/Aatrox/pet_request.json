@@ -1,0 +1,206 @@
+{
+  "pet_id": "lol-aatrox",
+  "display_name": "LoL Aatrox",
+  "description": "A Codex pet inspired by Aatrox, with Q/W/E/R ability cues.",
+  "created_at": "2026-05-11T13:24:54.282269+00:00",
+  "atlas": {
+    "columns": 8,
+    "rows": 9,
+    "cell_width": 192,
+    "cell_height": 208,
+    "width": 1536,
+    "height": 1872
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6,
+      "purpose": "neutral breathing/blinking loop"
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8,
+      "purpose": "rightward locomotion loop"
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8,
+      "purpose": "leftward locomotion loop"
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4,
+      "purpose": "greeting gesture with raised wave and return"
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5,
+      "purpose": "anticipation, lift, peak, descent, settle"
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8,
+      "purpose": "sad, failed, or deflated reaction"
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6,
+      "purpose": "patient waiting loop with small motion"
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6,
+      "purpose": "generic in-place running loop"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6,
+      "purpose": "focused inspecting or review loop"
+    }
+  ],
+  "layout_guides": [
+    {
+      "state": "idle",
+      "path": "references/layout-guides/idle.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-right",
+      "path": "references/layout-guides/running-right.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-left",
+      "path": "references/layout-guides/running-left.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waving",
+      "path": "references/layout-guides/waving.png",
+      "width": 768,
+      "height": 208,
+      "frames": 4,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "jumping",
+      "path": "references/layout-guides/jumping.png",
+      "width": 960,
+      "height": 208,
+      "frames": 5,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "failed",
+      "path": "references/layout-guides/failed.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waiting",
+      "path": "references/layout-guides/waiting.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running",
+      "path": "references/layout-guides/running.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "review",
+      "path": "references/layout-guides/review.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    }
+  ],
+  "references": [],
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "name": "user-selected",
+    "selection": "manual"
+  },
+  "pet_notes": "# Aatrox Pet Brief\n\nSource patch: 16.9.1\nChampion id: Aatrox\nDisplay name: Aatrox\nPet package id: lol-aatrox\n\n## Identity\n\n- Core silhouette: compact darkin swordsman with horned head, small wing-like back points, oversized crimson greatsword.\n- Palette: blackened armor, deep red flesh/accents, bone-white blade edge highlights, very small gold/brass armor notes.\n- Face/personality: stern, furious, ancient warlord energy; small glowing eyes under a heavy brow.\n- Must-keep prop or body feature: the massive darkin greatsword must stay attached to the body silhouette in every row.\n- Simplify/remove: remove fine armor filigree, splash-art chains, large wings, distant enemies, ground decals, soft glows, and loose blood/energy particles.\n\n## Ability Mapping\n\n| Ability | Spell name | Codex row | Pet-sized visual cue | Forbidden interpretation |\n| --- | --- | --- | --- | --- |\n| Q | The Darkin Blade | `waving` | one compact overhead greatsword wind-up/slam pose, blade still touching the pet silhouette | Three separate hit zones, floating slash arcs, impact marks, or ground cracks |\n| W | Infernal Chains | `waiting` | crouched bracing stance with one short hard-edged chain wrapped close around the sword or forearm | Detached chain projectile, target reticle, impact circle, or dragged enemy |\n| E | Umbral Dash | `jumping` | short forward dash body lean with sword tucked close and feet lifted | Speed lines, afterimages, dust, floor shadow, or long motion trail |\n| R | World Ender | `review` | tiny demonic stance with slightly larger horns/back points and raised sword | Full-size wings, aura halo, fear icons, minions, or broad red glow |\n\n## Prompt Notes\n\n- Base pet prompt: A tiny chibi Codex digital pet version of Aatrox, dark red and black armored darkin swordsman, horned head, small wing-like back points, oversized crimson greatsword, chunky readable silhouette, pixel-art-adjacent flat cel shading, thick dark outline, transparent-friendly solid chroma-key background.\n- Row identity lock: keep the same horn shape, glowing eyes, red-black palette, compact armor mass, and oversized greatsword proportions in every row.\n- Chroma-key risk: avoid green accents; use a flat saturated green background and keep all red effects opaque, hard-edged, and attached to the pet.\n- Running-left mirror decision: likely safe only if the greatsword has no asymmetric markings or side-specific pose after `running-right` is generated; inspect before mirroring.\n\n## QA Checklist\n\n- [ ] Same silhouette and palette across all rows.\n- [ ] Q row reads as The Darkin Blade without text or detached icons.\n- [ ] W row reads as Infernal Chains without text or detached icons.\n- [ ] E row reads as Umbral Dash without text or detached icons.\n- [ ] R row reads as World Ender without text or detached icons.\n- [ ] Failed row is an app error/reaction state, not confused with Q/W/E/R.\n- [ ] Contact sheet has no cropped bodies, white boxes, guide marks, shadows, or loose particles.\n- [ ] `qa/review.json` has no errors.\n- [ ] `final/validation.json` has no errors.",
+  "style_notes": "LoL champion fan pet. Compact chibi Codex digital pet; darkin swordsman identity; no Riot logo, no text, no detached spell icons.",
+  "house_style": "Codex digital pet sprite style: pixel-art-adjacent low-resolution mascot sprite, compact chibi proportions, chunky whole-body silhouette, thick dark 1-2 px outline, visible stepped/pixel edges, limited palette, flat cel shading with at most one small highlight and one shadow step, simple readable face, tiny limbs, and no detail that disappears at 192x208. Avoid polished illustration, painterly rendering, anime key art, 3D render, vector app-icon polish, glossy lighting, soft gradients, realistic fur or material texture, anti-aliased high-detail edges, and complex tiny accessories.",
+  "primary_generation_skill": "$imagegen",
+  "canonical_identity_reference": {
+    "path": "references/canonical-base.png",
+    "source_job": "base",
+    "sha256": "e43f5455ec492ce8e142b6ed0a2eeebbb8baba3389c5a5d42f6f8d1d3a9e3b33",
+    "metadata": {
+      "width": 1202,
+      "height": 1308,
+      "mode": "RGB",
+      "format": "PNG"
+    }
+  }
+}
