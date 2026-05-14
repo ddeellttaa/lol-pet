@@ -30,7 +30,7 @@ Q/W/E/R 状态枚举：`planned`、`briefed`、`generated`、`needs-repair`、`a
 | [ ] | Amumu (Amumu) | planned | planned | planned | planned | planned | `lol-amumu` | `briefs/Amumu.md` | `runs/16.9.1/Amumu/qa/contact-sheet.png` |
 | [ ] | Anivia (Anivia) | planned | planned | planned | planned | planned | `lol-anivia` | `briefs/Anivia.md` | `runs/16.9.1/Anivia/qa/contact-sheet.png` |
 | [ ] | Annie (Annie) | planned | planned | planned | planned | planned | `lol-annie` | `briefs/Annie.md` | `runs/16.9.1/Annie/qa/contact-sheet.png` |
-| [ ] | Aphelios (Aphelios) | planned | planned | planned | planned | planned | `lol-aphelios` | `briefs/Aphelios.md` | `runs/16.9.1/Aphelios/qa/contact-sheet.png` |
+| [x] | Aphelios (Aphelios) | accepted | accepted | accepted | accepted | accepted | `lol-aphelios` | `briefs/Aphelios.md` | `runs/16.9.1/Aphelios/qa/contact-sheet.png` |
 | [ ] | Ashe (Ashe) | planned | planned | planned | planned | planned | `lol-ashe` | `briefs/Ashe.md` | `runs/16.9.1/Ashe/qa/contact-sheet.png` |
 | [ ] | Aurelion Sol (AurelionSol) | planned | planned | planned | planned | planned | `lol-aurelionsol` | `briefs/AurelionSol.md` | `runs/16.9.1/AurelionSol/qa/contact-sheet.png` |
 | [ ] | Aurora (Aurora) | planned | planned | planned | planned | planned | `lol-aurora` | `briefs/Aurora.md` | `runs/16.9.1/Aurora/qa/contact-sheet.png` |

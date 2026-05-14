@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "run_dir": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Aphelios",
+  "spritesheet": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Aphelios/final/spritesheet.webp",
+  "validation": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Aphelios/final/validation.json",
+  "contact_sheet": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Aphelios/qa/contact-sheet.png",
+  "review": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Aphelios/qa/review.json",
+  "videos": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Aphelios/qa/videos",
+  "package": "/Users/zhangbowen/.codex/pets/lol-aphelios"
+}
