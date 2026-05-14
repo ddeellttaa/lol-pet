@@ -1,0 +1,234 @@
+{
+  "pet_id": "lol-ksante",
+  "display_name": "LoL K'Sante",
+  "description": "A Codex pet inspired by K'Sante, with Q/W/E/R ability cues.",
+  "created_at": "2026-05-12T09:08:17.093481+00:00",
+  "atlas": {
+    "columns": 8,
+    "rows": 9,
+    "cell_width": 192,
+    "cell_height": 208,
+    "width": 1536,
+    "height": 1872
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6,
+      "purpose": "neutral breathing/blinking loop"
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8,
+      "purpose": "rightward locomotion loop"
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8,
+      "purpose": "leftward locomotion loop"
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4,
+      "purpose": "greeting gesture with raised wave and return"
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5,
+      "purpose": "anticipation, lift, peak, descent, settle"
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8,
+      "purpose": "sad, failed, or deflated reaction"
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6,
+      "purpose": "patient waiting loop with small motion"
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6,
+      "purpose": "generic in-place running loop"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6,
+      "purpose": "focused inspecting or review loop"
+    }
+  ],
+  "layout_guides": [
+    {
+      "state": "idle",
+      "path": "references/layout-guides/idle.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-right",
+      "path": "references/layout-guides/running-right.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-left",
+      "path": "references/layout-guides/running-left.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waving",
+      "path": "references/layout-guides/waving.png",
+      "width": 768,
+      "height": 208,
+      "frames": 4,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "jumping",
+      "path": "references/layout-guides/jumping.png",
+      "width": 960,
+      "height": 208,
+      "frames": 5,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "failed",
+      "path": "references/layout-guides/failed.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waiting",
+      "path": "references/layout-guides/waiting.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running",
+      "path": "references/layout-guides/running.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "review",
+      "path": "references/layout-guides/review.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    }
+  ],
+  "references": [
+    {
+      "path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/KSante/references/reference-01.jpg",
+      "width": 1215,
+      "height": 717,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "/Users/zhangbowen/code/fun/pet/references/ksante/ddragon-ksante-splash.jpg",
+      "copied_path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/KSante/references/reference-01.jpg"
+    },
+    {
+      "path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/KSante/references/reference-02.jpg",
+      "width": 308,
+      "height": 560,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "/Users/zhangbowen/code/fun/pet/references/ksante/ddragon-ksante-loading.jpg",
+      "copied_path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/KSante/references/reference-02.jpg"
+    },
+    {
+      "path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/KSante/references/reference-03.png",
+      "width": 128,
+      "height": 128,
+      "mode": "RGB",
+      "format": "PNG",
+      "source_path": "/Users/zhangbowen/code/fun/pet/references/ksante/ddragon-ksante-icon.png",
+      "copied_path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/KSante/references/reference-03.png"
+    }
+  ],
+  "chroma_key": {
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "name": "user-selected",
+    "selection": "manual"
+  },
+  "pet_notes": "# K'Sante Pet Brief\n\nSource patch: 16.9.1\nChampion id: KSante\nDisplay name: K'Sante\nPet package id: lol-ksante\n\n## Reference Pack\n\n- Official champion page: https://www.leagueoflegends.com/en-us/champions/k-sante/\n- Official splash: `references/ksante/ddragon-ksante-splash.jpg`\n- Official loading crop: `references/ksante/ddragon-ksante-loading.jpg`\n- Official square icon: `references/ksante/ddragon-ksante-icon.png`\n- DDragon champion data: `data/ddragon/16.9.1/champions/KSante.json`\n\n## Identity\n\n- Core silhouette: compact chibi Nazumah warrior with white swept dreadlock-like hair, broad dark-skinned face and body, teal-and-gold armor plates, cream cloth wraps, and two oversized ntofo tonfa/blade weapons held close.\n- Palette: dark brown skin, white hair, turquoise/teal armor, warm gold trim, cream wraps, muted stone-gray weapon mass, and tiny amber highlights only when attached to the body or ntofos.\n- Face/personality: defiant, proud, protective hunter energy; stern focused eyes and squared stance without turning into a generic knight, monk, or armored barbarian.\n- Must-keep prop or body feature: both ntofo weapons must remain readable and physically attached to K'Sante's hands/body silhouette in every row.\n- Simplify/remove: remove fine armor engravings, long weapon inscriptions, background oasis/sand, enemies, walls, broad shockwaves, dust trails, large shields, and loose teal/gold particles.\n\n## Ability Mapping\n\n| Ability | Spell name | Codex row | Pet-sized visual cue | Forbidden interpretation |\n| --- | --- | --- | --- | --- |\n| Q | Ntofo Strikes | `waving` | one compact ntofo wind-up or short forward strike with both weapons still touching the silhouette | Shockwave projectile, three-stack icon, pulled enemy, long slash arc, impact mark, or text |\n| W | Path Maker | `waiting` | braced charge stance with crossed ntofos tucked close against the body | Long dash trail, wall collision, enemy knockback, floor dust, shield bar, or scenery |\n| E | Footwork | `jumping` | short evasive hop/step with a tiny attached shield glint on the body or weapon | Detached shield bubble, ally target, speed lines, afterimage, dust, or floor shadow |\n| R | All Out | `review` | intense transformed stance with one ntofo blade opened/extended close to the body | Enemy launch, wall break, huge aura, full transformation cutscene, floating buff icon, or cinematic background |\n\n## Prompt Notes\n\n- Base pet prompt: A tiny chibi Codex digital pet version of League of Legends K'Sante, the Pride of Nazumah, dark-skinned proud warrior, white swept dreadlock-like hair, teal-and-gold armor, cream cloth wraps, two oversized stone-and-gold ntofo tonfa/blade weapons held close, stern protective face, chunky readable whole-body silhouette, pixel-art-adjacent flat cel shading, thick dark outline, transparent-friendly solid chroma-key background.\n- Row identity lock: keep the same white hair shape, dark brown skin, teal-gold armor plates, cream wraps, stern eyes, compact warrior proportions, and paired oversized ntofo weapons in every row.\n- Chroma-key risk: K'Sante uses teal, gold/yellow, cream, and white; use a flat saturated magenta background and keep all teal/gold cues opaque, hard-edged, small, and physically attached.\n- Running-left mirror decision: likely safe only if both ntofos have no readable markings and the pose does not depend on handedness after `running-right`; inspect before mirroring because the paired weapons and stance can make asymmetry noticeable.\n\n## QA Checklist\n\n- [ ] Reference Pack \u5df2\u67e5\u5e76\u5199\u5165 brief\u3002\n- [ ] Same silhouette and palette across all rows.\n- [ ] Reads as League of Legends K'Sante, not a generic armored warrior, knight, monk, or barbarian.\n- [ ] White hair, dark skin, teal-gold armor, cream wraps, and paired ntofos stay readable.\n- [ ] Q row reads as Ntofo Strikes without text, detached shockwaves, or enemies.\n- [ ] W row reads as Path Maker without walls, dust trails, or detached shield bars.\n- [ ] E row reads as Footwork without speed lines, afterimages, or loose shield bubbles.\n- [ ] R row reads as All Out without enemies, wall breaks, huge aura, or buff icons.\n- [ ] Failed row is an app error/reaction state, not confused with Q/W/E/R.\n- [ ] Contact sheet has no cropped bodies, white boxes, guide marks, shadows, or loose particles.\n- [ ] `qa/review.json` has no errors.\n- [ ] `final/validation.json` has no errors.",
+  "style_notes": "LoL champion fan pet. Compact chibi Codex digital pet; Nazumah warrior identity with paired ntofo weapons; no Riot logo, no text, no detached spell icons.",
+  "house_style": "Codex digital pet sprite style: pixel-art-adjacent low-resolution mascot sprite, compact chibi proportions, chunky whole-body silhouette, thick dark 1-2 px outline, visible stepped/pixel edges, limited palette, flat cel shading with at most one small highlight and one shadow step, simple readable face, tiny limbs, and no detail that disappears at 192x208. Avoid polished illustration, painterly rendering, anime key art, 3D render, vector app-icon polish, glossy lighting, soft gradients, realistic fur or material texture, anti-aliased high-detail edges, and complex tiny accessories.",
+  "primary_generation_skill": "$imagegen",
+  "canonical_identity_reference": {
+    "path": "references/canonical-base.png",
+    "source_job": "base",
+    "sha256": "9b74fe38d6217af0c78887c50dcd915cc590949f1542a09179d29de3543f5439",
+    "metadata": {
+      "width": 1203,
+      "height": 1308,
+      "mode": "RGB",
+      "format": "PNG"
+    }
+  }
+}
