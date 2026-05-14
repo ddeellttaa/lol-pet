@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "run_dir": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Syndra",
+  "spritesheet": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Syndra/final/spritesheet.webp",
+  "validation": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Syndra/final/validation.json",
+  "contact_sheet": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Syndra/qa/contact-sheet.png",
+  "review": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Syndra/qa/review.json",
+  "videos": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Syndra/qa/videos",
+  "package": "/Users/zhangbowen/.codex/pets/lol-syndra"
+}

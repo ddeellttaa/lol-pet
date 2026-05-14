@@ -151,7 +151,7 @@ Q/W/E/R 状态枚举：`planned`、`briefed`、`generated`、`needs-repair`、`a
 | [ ] | Soraka (Soraka) | planned | planned | planned | planned | planned | `lol-soraka` | `briefs/Soraka.md` | `runs/16.9.1/Soraka/qa/contact-sheet.png` |
 | [ ] | Swain (Swain) | planned | planned | planned | planned | planned | `lol-swain` | `briefs/Swain.md` | `runs/16.9.1/Swain/qa/contact-sheet.png` |
 | [ ] | Sylas (Sylas) | planned | planned | planned | planned | planned | `lol-sylas` | `briefs/Sylas.md` | `runs/16.9.1/Sylas/qa/contact-sheet.png` |
-| [ ] | Syndra (Syndra) | planned | planned | planned | planned | planned | `lol-syndra` | `briefs/Syndra.md` | `runs/16.9.1/Syndra/qa/contact-sheet.png` |
+| [x] | Syndra (Syndra) | accepted | accepted | accepted | accepted | accepted | `lol-syndra` | `briefs/Syndra.md` | `runs/16.9.1/Syndra/qa/contact-sheet.png` |
 | [ ] | Tahm Kench (TahmKench) | planned | planned | planned | planned | planned | `lol-tahmkench` | `briefs/TahmKench.md` | `runs/16.9.1/TahmKench/qa/contact-sheet.png` |
 | [ ] | Taliyah (Taliyah) | planned | planned | planned | planned | planned | `lol-taliyah` | `briefs/Taliyah.md` | `runs/16.9.1/Taliyah/qa/contact-sheet.png` |
 | [ ] | Talon (Talon) | planned | planned | planned | planned | planned | `lol-talon` | `briefs/Talon.md` | `runs/16.9.1/Talon/qa/contact-sheet.png` |
