@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "run_dir": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko",
+  "spritesheet": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/final/spritesheet.webp",
+  "validation": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/final/validation.json",
+  "contact_sheet": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/qa/contact-sheet.png",
+  "review": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/qa/review.json",
+  "videos": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/qa/videos",
+  "package": "/Users/zhangbowen/.codex/pets/lol-neeko"
+}

@@ -1,0 +1,225 @@
+{
+  "pet_id": "lol-neeko",
+  "display_name": "LoL Neeko",
+  "description": "A Codex pet inspired by Neeko, with Q/W/E/R ability cues.",
+  "created_at": "2026-05-12T10:31:09.205848+00:00",
+  "atlas": {
+    "columns": 8,
+    "rows": 9,
+    "cell_width": 192,
+    "cell_height": 208,
+    "width": 1536,
+    "height": 1872
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6,
+      "purpose": "neutral breathing/blinking loop"
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8,
+      "purpose": "rightward locomotion loop"
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8,
+      "purpose": "leftward locomotion loop"
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4,
+      "purpose": "greeting gesture with raised wave and return"
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5,
+      "purpose": "anticipation, lift, peak, descent, settle"
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8,
+      "purpose": "sad, failed, or deflated reaction"
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6,
+      "purpose": "patient waiting loop with small motion"
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6,
+      "purpose": "generic in-place running loop"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6,
+      "purpose": "focused inspecting or review loop"
+    }
+  ],
+  "layout_guides": [
+    {
+      "state": "idle",
+      "path": "references/layout-guides/idle.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-right",
+      "path": "references/layout-guides/running-right.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-left",
+      "path": "references/layout-guides/running-left.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waving",
+      "path": "references/layout-guides/waving.png",
+      "width": 768,
+      "height": 208,
+      "frames": 4,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "jumping",
+      "path": "references/layout-guides/jumping.png",
+      "width": 960,
+      "height": 208,
+      "frames": 5,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "failed",
+      "path": "references/layout-guides/failed.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waiting",
+      "path": "references/layout-guides/waiting.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running",
+      "path": "references/layout-guides/running.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "review",
+      "path": "references/layout-guides/review.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    }
+  ],
+  "references": [
+    {
+      "path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/references/reference-01.jpg",
+      "width": 1215,
+      "height": 717,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "/Users/zhangbowen/code/fun/pet/references/neeko/ddragon-neeko-splash.jpg",
+      "copied_path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/references/reference-01.jpg"
+    },
+    {
+      "path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/references/reference-02.jpg",
+      "width": 308,
+      "height": 560,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "/Users/zhangbowen/code/fun/pet/references/neeko/ddragon-neeko-loading.jpg",
+      "copied_path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/references/reference-02.jpg"
+    }
+  ],
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "name": "user-selected",
+    "selection": "manual"
+  },
+  "pet_notes": "# Neeko Pet Brief\n\nSource patch: 16.9.1\nChampion id: Neeko\nDisplay name: Neeko\nPet package id: lol-neeko\n\n## Reference Pack\n\n- Riot official page: https://www.leagueoflegends.com/en-us/champions/neeko/\n- Official splash: `references/neeko/ddragon-neeko-splash.jpg`\n- Official loading crop: `references/neeko/ddragon-neeko-loading.jpg`\n- Model viewer: https://modelviewer.lol/model-viewer?id=518000\n- Local notes: `references/neeko/reference-notes.md`\n- Notes from visual research: base Neeko is a curious chameleon vastaya with huge amber eyes, purple-blue hair with magenta tips, two tall leaf/feather hair fins, a pink flower, green limbs, an orange-brown leaf tunic, dark gloves/feet, and a curled chameleon tail. Avoid translating splash scenery, butterflies, and forest glow into detached pet effects.\n\n## Identity\n\n- Core silhouette: compact chibi chameleon-vastaya with oversized golden eyes, big swept purple-blue hair, two tall magenta-tipped leaf/feather hair fins, pink flower on the hair, small green limbs, orange-brown leaf tunic, and a curled tail tucked close.\n- Palette: violet-blue hair with magenta tips, warm pink flower, green skin/limbs, orange-brown leaf clothing, dark purple gloves/feet, amber eyes, and only tiny attached green-pink spirit magic.\n- Face/personality: bright, curious, playful trickster energy; wide eyes and open delighted expression, but still simplified for 192x208 pet scale.\n- Must-keep prop or body feature: the hair fins, flower, amber eyes, green chameleon limbs, leaf tunic, and curled tail must stay readable in every row.\n- Simplify/remove: remove forest scenery, butterflies, broad glows, long vines, loose petals, distant clones, detailed jewelry, and tiny body markings that will not read at pet size.\n\n## Ability Mapping\n\n| Ability | Spell name | Codex row | Pet-sized visual cue | Forbidden interpretation |\n| --- | --- | --- | --- | --- |\n| Q | Blooming Burst | `waving` | Neeko presents one tiny seed or blossom pressed to her hand | Detached flower projectile, repeated explosions, loose petals, butterfly swarm, or spell icon |\n| W | Shapesplitter | `waiting` | playful split-stance with a small overlapping same-shape echo attached behind her shoulder | Full second Neeko clone, separate duplicate sprite, afterimage trail, mirror text, or detached silhouette |\n| E | Tangle-Barbs | `jumping` | short hop while holding a tiny vine/barb coil touching her hands or tail | Long snare line across cells, rooted enemy, ground vines, thorn field, or loose plant particles |\n| R | Pop Blossom | `review` | focused crouch-to-blossom pose with a small flower-burst collar attached around her body | Huge flower explosion, airborne enemies, wide aura, falling petals, halo, or cinematic background |\n\n## Prompt Notes\n\n- Base pet prompt: A tiny chibi Codex digital pet version of League of Legends Neeko, curious chameleon vastaya, huge amber-gold eyes, big swept purple-blue hair with magenta tips, two tall leaf-like magenta hair fins, pink flower in the hair, green arms and legs, orange-brown leaf tunic, dark purple glove hands and feet, curled chameleon tail tucked close, playful open expression, compact readable whole-body silhouette, pixel-art-adjacent flat cel shading, thick dark outline, transparent-friendly solid chroma-key background.\n- Row identity lock: keep the same huge amber eyes, purple-blue and magenta hair shape, two tall hair fins, pink flower, green limbs, orange-brown leaf tunic, dark gloves/feet, curled tail, curious expression, and compact chameleon-vastaya silhouette in every row.\n- Chroma-key risk: measured generated Neeko foreground colors are safest against flat saturated green `#00FF00`; keep the body green muted/teal rather than pure chroma green, and keep all highlights away from the key color.\n- Running-left mirror decision: likely safe only if the flower, hair fins, tail curl, and leaf tunic still read naturally after `running-right`; inspect before mirroring because the flower and tail may make left-right asymmetry noticeable.\n\n## QA Checklist\n\n- [ ] Reference Pack \u5df2\u67e5\u5e76\u5199\u5165 brief\u3002\n- [ ] Same silhouette and palette across all rows.\n- [ ] Reads as League of Legends Neeko, not a generic fairy, elf, dryad, or lizard.\n- [ ] Hair fins, pink flower, amber eyes, green limbs, leaf tunic, and curled tail stay readable.\n- [ ] Q row reads as Blooming Burst without text or detached icons.\n- [ ] W row reads as Shapesplitter without a separate full clone sprite.\n- [ ] E row reads as Tangle-Barbs without long detached vine lines.\n- [ ] R row reads as Pop Blossom without huge detached flower explosions.\n- [ ] Failed row is an app error/reaction state, not confused with Q/W/E/R.\n- [ ] Contact sheet has no cropped bodies, white boxes, guide marks, shadows, or loose particles.\n- [ ] `qa/review.json` has no errors.\n- [ ] `final/validation.json` has no errors.",
+  "style_notes": "LoL champion fan pet. Compact chibi Codex digital pet; curious chameleon vastaya identity; no Riot logo, no text, no detached spell icons.",
+  "house_style": "Codex digital pet sprite style: pixel-art-adjacent low-resolution mascot sprite, compact chibi proportions, chunky whole-body silhouette, thick dark 1-2 px outline, visible stepped/pixel edges, limited palette, flat cel shading with at most one small highlight and one shadow step, simple readable face, tiny limbs, and no detail that disappears at 192x208. Avoid polished illustration, painterly rendering, anime key art, 3D render, vector app-icon polish, glossy lighting, soft gradients, realistic fur or material texture, anti-aliased high-detail edges, and complex tiny accessories.",
+  "primary_generation_skill": "$imagegen",
+  "canonical_identity_reference": {
+    "path": "references/canonical-base.png",
+    "source_job": "base",
+    "sha256": "f1155476fef8cee943aadc125a1be4c4a4ada1c336ddc69a473fcb73c43502a9",
+    "metadata": {
+      "width": 1203,
+      "height": 1307,
+      "mode": "RGB",
+      "format": "PNG"
+    }
+  }
+}

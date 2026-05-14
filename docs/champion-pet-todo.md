@@ -111,7 +111,7 @@ Q/W/E/R 状态枚举：`planned`、`briefed`、`generated`、`needs-repair`、`a
 | [ ] | Nami (Nami) | planned | planned | planned | planned | planned | `lol-nami` | `briefs/Nami.md` | `runs/16.9.1/Nami/qa/contact-sheet.png` |
 | [ ] | Nasus (Nasus) | planned | planned | planned | planned | planned | `lol-nasus` | `briefs/Nasus.md` | `runs/16.9.1/Nasus/qa/contact-sheet.png` |
 | [ ] | Nautilus (Nautilus) | planned | planned | planned | planned | planned | `lol-nautilus` | `briefs/Nautilus.md` | `runs/16.9.1/Nautilus/qa/contact-sheet.png` |
-| [ ] | Neeko (Neeko) | planned | planned | planned | planned | planned | `lol-neeko` | `briefs/Neeko.md` | `runs/16.9.1/Neeko/qa/contact-sheet.png` |
+| [x] | Neeko (Neeko) | accepted | accepted | accepted | accepted | accepted | `lol-neeko` | `briefs/Neeko.md` | `runs/16.9.1/Neeko/qa/contact-sheet.png` |
 | [ ] | Nidalee (Nidalee) | planned | planned | planned | planned | planned | `lol-nidalee` | `briefs/Nidalee.md` | `runs/16.9.1/Nidalee/qa/contact-sheet.png` |
 | [ ] | Nilah (Nilah) | planned | planned | planned | planned | planned | `lol-nilah` | `briefs/Nilah.md` | `runs/16.9.1/Nilah/qa/contact-sheet.png` |
 | [ ] | Nocturne (Nocturne) | planned | planned | planned | planned | planned | `lol-nocturne` | `briefs/Nocturne.md` | `runs/16.9.1/Nocturne/qa/contact-sheet.png` |

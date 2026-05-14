@@ -89,7 +89,7 @@ Naafiri,Naafiri,16.9.1,planned,planned,planned,planned,planned,lol-naafiri,brief
 Nami,Nami,16.9.1,planned,planned,planned,planned,planned,lol-nami,briefs/Nami.md,runs/16.9.1/Nami,runs/16.9.1/Nami/qa/contact-sheet.png,,
 Nasus,Nasus,16.9.1,planned,planned,planned,planned,planned,lol-nasus,briefs/Nasus.md,runs/16.9.1/Nasus,runs/16.9.1/Nasus/qa/contact-sheet.png,,
 Nautilus,Nautilus,16.9.1,planned,planned,planned,planned,planned,lol-nautilus,briefs/Nautilus.md,runs/16.9.1/Nautilus,runs/16.9.1/Nautilus/qa/contact-sheet.png,,
-Neeko,Neeko,16.9.1,planned,planned,planned,planned,planned,lol-neeko,briefs/Neeko.md,runs/16.9.1/Neeko,runs/16.9.1/Neeko/qa/contact-sheet.png,,
+Neeko,Neeko,16.9.1,accepted,accepted,accepted,accepted,accepted,lol-neeko,briefs/Neeko.md,runs/16.9.1/Neeko,runs/16.9.1/Neeko/qa/contact-sheet.png,2026-05-12T18:49:08+08:00,"QA passed; installed to ~/.codex/pets/lol-neeko; running-left mirrored from running-right; green chroma key selected after yellow/red key validation failures."
 Nidalee,Nidalee,16.9.1,planned,planned,planned,planned,planned,lol-nidalee,briefs/Nidalee.md,runs/16.9.1/Nidalee,runs/16.9.1/Nidalee/qa/contact-sheet.png,,
 Nilah,Nilah,16.9.1,planned,planned,planned,planned,planned,lol-nilah,briefs/Nilah.md,runs/16.9.1/Nilah,runs/16.9.1/Nilah/qa/contact-sheet.png,,
 Nocturne,Nocturne,16.9.1,planned,planned,planned,planned,planned,lol-nocturne,briefs/Nocturne.md,runs/16.9.1/Nocturne,runs/16.9.1/Nocturne/qa/contact-sheet.png,,

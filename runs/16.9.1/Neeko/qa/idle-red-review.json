@@ -1,0 +1,1074 @@
+{
+  "ok": false,
+  "frames_root": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames",
+  "errors": [
+    "idle frame 00 has 1943 non-transparent pixels close to the chroma key",
+    "idle frame 01 has 1977 non-transparent pixels close to the chroma key",
+    "idle frame 02 has 1863 non-transparent pixels close to the chroma key",
+    "idle frame 03 has 1901 non-transparent pixels close to the chroma key",
+    "idle frame 04 has 1943 non-transparent pixels close to the chroma key",
+    "idle frame 05 has 1941 non-transparent pixels close to the chroma key",
+    "running-right frame 00 has 1101 non-transparent pixels close to the chroma key",
+    "running-right frame 01 has 1021 non-transparent pixels close to the chroma key",
+    "running-right frame 02 has 1102 non-transparent pixels close to the chroma key",
+    "running-right frame 03 has 1077 non-transparent pixels close to the chroma key",
+    "running-right frame 04 has 1052 non-transparent pixels close to the chroma key",
+    "running-right frame 05 has 1076 non-transparent pixels close to the chroma key",
+    "running-right frame 06 has 1108 non-transparent pixels close to the chroma key",
+    "running-right frame 07 has 951 non-transparent pixels close to the chroma key",
+    "running-left frame 00 has 951 non-transparent pixels close to the chroma key",
+    "running-left frame 01 has 1108 non-transparent pixels close to the chroma key",
+    "running-left frame 02 has 1076 non-transparent pixels close to the chroma key",
+    "running-left frame 03 has 1052 non-transparent pixels close to the chroma key",
+    "running-left frame 04 has 1077 non-transparent pixels close to the chroma key",
+    "running-left frame 05 has 1102 non-transparent pixels close to the chroma key",
+    "running-left frame 06 has 1021 non-transparent pixels close to the chroma key",
+    "running-left frame 07 has 1101 non-transparent pixels close to the chroma key",
+    "waving frame 00 has 1069 non-transparent pixels close to the chroma key",
+    "waving frame 01 has 1081 non-transparent pixels close to the chroma key",
+    "waving frame 02 has 1101 non-transparent pixels close to the chroma key",
+    "waving frame 03 has 1075 non-transparent pixels close to the chroma key",
+    "jumping frame 00 has 1047 non-transparent pixels close to the chroma key",
+    "jumping frame 01 has 1511 non-transparent pixels close to the chroma key",
+    "jumping frame 02 has 1481 non-transparent pixels close to the chroma key",
+    "jumping frame 03 has 1500 non-transparent pixels close to the chroma key",
+    "jumping frame 04 has 1460 non-transparent pixels close to the chroma key",
+    "failed frame 00 has 969 non-transparent pixels close to the chroma key",
+    "failed frame 07 has 872 non-transparent pixels close to the chroma key",
+    "waiting frame 00 has 1561 non-transparent pixels close to the chroma key",
+    "waiting frame 01 has 1129 non-transparent pixels close to the chroma key",
+    "waiting frame 02 has 1371 non-transparent pixels close to the chroma key",
+    "waiting frame 03 has 1366 non-transparent pixels close to the chroma key",
+    "waiting frame 04 has 1416 non-transparent pixels close to the chroma key",
+    "waiting frame 05 has 1446 non-transparent pixels close to the chroma key",
+    "running frame 00 has 1828 non-transparent pixels close to the chroma key",
+    "running frame 01 has 1680 non-transparent pixels close to the chroma key",
+    "running frame 02 has 1818 non-transparent pixels close to the chroma key",
+    "running frame 03 has 1577 non-transparent pixels close to the chroma key",
+    "running frame 04 has 1523 non-transparent pixels close to the chroma key",
+    "running frame 05 has 1589 non-transparent pixels close to the chroma key",
+    "review frame 00 has 1311 non-transparent pixels close to the chroma key",
+    "review frame 01 has 995 non-transparent pixels close to the chroma key",
+    "review frame 02 has 814 non-transparent pixels close to the chroma key",
+    "review frame 03 has 1100 non-transparent pixels close to the chroma key",
+    "review frame 04 has 1269 non-transparent pixels close to the chroma key",
+    "review frame 05 has 1309 non-transparent pixels close to the chroma key"
+  ],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": false,
+      "errors": [
+        "idle frame 00 has 1943 non-transparent pixels close to the chroma key",
+        "idle frame 01 has 1977 non-transparent pixels close to the chroma key",
+        "idle frame 02 has 1863 non-transparent pixels close to the chroma key",
+        "idle frame 03 has 1901 non-transparent pixels close to the chroma key",
+        "idle frame 04 has 1943 non-transparent pixels close to the chroma key",
+        "idle frame 05 has 1941 non-transparent pixels close to the chroma key"
+      ],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15827,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1943
+        },
+        {
+          "index": 1,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15703,
+          "bbox": [
+            30,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1977
+        },
+        {
+          "index": 2,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15570,
+          "bbox": [
+            30,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1863
+        },
+        {
+          "index": 3,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15588,
+          "bbox": [
+            30,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1901
+        },
+        {
+          "index": 4,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15852,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1943
+        },
+        {
+          "index": 5,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15816,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1941
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "running-right frame 00 has 1101 non-transparent pixels close to the chroma key",
+        "running-right frame 01 has 1021 non-transparent pixels close to the chroma key",
+        "running-right frame 02 has 1102 non-transparent pixels close to the chroma key",
+        "running-right frame 03 has 1077 non-transparent pixels close to the chroma key",
+        "running-right frame 04 has 1052 non-transparent pixels close to the chroma key",
+        "running-right frame 05 has 1076 non-transparent pixels close to the chroma key",
+        "running-right frame 06 has 1108 non-transparent pixels close to the chroma key",
+        "running-right frame 07 has 951 non-transparent pixels close to the chroma key"
+      ],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17930,
+          "bbox": [
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1101
+        },
+        {
+          "index": 1,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16019,
+          "bbox": [
+            32,
+            5,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1021
+        },
+        {
+          "index": 2,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17674,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1102
+        },
+        {
+          "index": 3,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17120,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1077
+        },
+        {
+          "index": 4,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16743,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1052
+        },
+        {
+          "index": 5,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17465,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1076
+        },
+        {
+          "index": 6,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16011,
+          "bbox": [
+            30,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1108
+        },
+        {
+          "index": 7,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15726,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 951
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "running-left frame 00 has 951 non-transparent pixels close to the chroma key",
+        "running-left frame 01 has 1108 non-transparent pixels close to the chroma key",
+        "running-left frame 02 has 1076 non-transparent pixels close to the chroma key",
+        "running-left frame 03 has 1052 non-transparent pixels close to the chroma key",
+        "running-left frame 04 has 1077 non-transparent pixels close to the chroma key",
+        "running-left frame 05 has 1102 non-transparent pixels close to the chroma key",
+        "running-left frame 06 has 1021 non-transparent pixels close to the chroma key",
+        "running-left frame 07 has 1101 non-transparent pixels close to the chroma key"
+      ],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15726,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 951
+        },
+        {
+          "index": 1,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16011,
+          "bbox": [
+            30,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1108
+        },
+        {
+          "index": 2,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17465,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1076
+        },
+        {
+          "index": 3,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16743,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1052
+        },
+        {
+          "index": 4,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17120,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1077
+        },
+        {
+          "index": 5,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17674,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1102
+        },
+        {
+          "index": 6,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16019,
+          "bbox": [
+            32,
+            5,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1021
+        },
+        {
+          "index": 7,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17930,
+          "bbox": [
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1101
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "waving frame 00 has 1069 non-transparent pixels close to the chroma key",
+        "waving frame 01 has 1081 non-transparent pixels close to the chroma key",
+        "waving frame 02 has 1101 non-transparent pixels close to the chroma key",
+        "waving frame 03 has 1075 non-transparent pixels close to the chroma key"
+      ],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15458,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1069
+        },
+        {
+          "index": 1,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14613,
+          "bbox": [
+            30,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1081
+        },
+        {
+          "index": 2,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15007,
+          "bbox": [
+            29,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1101
+        },
+        {
+          "index": 3,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15624,
+          "bbox": [
+            30,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1075
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "jumping frame 00 has 1047 non-transparent pixels close to the chroma key",
+        "jumping frame 01 has 1511 non-transparent pixels close to the chroma key",
+        "jumping frame 02 has 1481 non-transparent pixels close to the chroma key",
+        "jumping frame 03 has 1500 non-transparent pixels close to the chroma key",
+        "jumping frame 04 has 1460 non-transparent pixels close to the chroma key"
+      ],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21227,
+          "bbox": [
+            8,
+            5,
+            184,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1047
+        },
+        {
+          "index": 1,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18254,
+          "bbox": [
+            20,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1511
+        },
+        {
+          "index": 2,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19533,
+          "bbox": [
+            14,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1481
+        },
+        {
+          "index": 3,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19453,
+          "bbox": [
+            18,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1500
+        },
+        {
+          "index": 4,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19309,
+          "bbox": [
+            19,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1460
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "failed frame 00 has 969 non-transparent pixels close to the chroma key",
+        "failed frame 07 has 872 non-transparent pixels close to the chroma key"
+      ],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17780,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 969
+        },
+        {
+          "index": 1,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18170,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 718
+        },
+        {
+          "index": 2,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22078,
+          "bbox": [
+            17,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 766
+        },
+        {
+          "index": 3,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21011,
+          "bbox": [
+            5,
+            24,
+            187,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 399
+        },
+        {
+          "index": 4,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20053,
+          "bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 778
+        },
+        {
+          "index": 5,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17851,
+          "bbox": [
+            27,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 640
+        },
+        {
+          "index": 6,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25424,
+          "bbox": [
+            5,
+            12,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 777
+        },
+        {
+          "index": 7,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19696,
+          "bbox": [
+            21,
+            5,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 872
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "waiting frame 00 has 1561 non-transparent pixels close to the chroma key",
+        "waiting frame 01 has 1129 non-transparent pixels close to the chroma key",
+        "waiting frame 02 has 1371 non-transparent pixels close to the chroma key",
+        "waiting frame 03 has 1366 non-transparent pixels close to the chroma key",
+        "waiting frame 04 has 1416 non-transparent pixels close to the chroma key",
+        "waiting frame 05 has 1446 non-transparent pixels close to the chroma key"
+      ],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17955,
+          "bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1561
+        },
+        {
+          "index": 1,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18409,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1129
+        },
+        {
+          "index": 2,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18968,
+          "bbox": [
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1371
+        },
+        {
+          "index": 3,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18011,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1366
+        },
+        {
+          "index": 4,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18681,
+          "bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1416
+        },
+        {
+          "index": 5,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17839,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1446
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "running frame 00 has 1828 non-transparent pixels close to the chroma key",
+        "running frame 01 has 1680 non-transparent pixels close to the chroma key",
+        "running frame 02 has 1818 non-transparent pixels close to the chroma key",
+        "running frame 03 has 1577 non-transparent pixels close to the chroma key",
+        "running frame 04 has 1523 non-transparent pixels close to the chroma key",
+        "running frame 05 has 1589 non-transparent pixels close to the chroma key"
+      ],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16030,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1828
+        },
+        {
+          "index": 1,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16161,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1680
+        },
+        {
+          "index": 2,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16745,
+          "bbox": [
+            26,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1818
+        },
+        {
+          "index": 3,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16104,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1577
+        },
+        {
+          "index": 4,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16542,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1523
+        },
+        {
+          "index": 5,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16499,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1589
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "review frame 00 has 1311 non-transparent pixels close to the chroma key",
+        "review frame 01 has 995 non-transparent pixels close to the chroma key",
+        "review frame 02 has 814 non-transparent pixels close to the chroma key",
+        "review frame 03 has 1100 non-transparent pixels close to the chroma key",
+        "review frame 04 has 1269 non-transparent pixels close to the chroma key",
+        "review frame 05 has 1309 non-transparent pixels close to the chroma key"
+      ],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16340,
+          "bbox": [
+            28,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1311
+        },
+        {
+          "index": 1,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17999,
+          "bbox": [
+            16,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 995
+        },
+        {
+          "index": 2,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20713,
+          "bbox": [
+            11,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 814
+        },
+        {
+          "index": 3,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 24146,
+          "bbox": [
+            5,
+            8,
+            187,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1100
+        },
+        {
+          "index": 4,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20221,
+          "bbox": [
+            12,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1269
+        },
+        {
+          "index": 5,
+          "file": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/Neeko/frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17169,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1309
+        }
+      ]
+    }
+  ]
+}
