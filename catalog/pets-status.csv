@@ -13,7 +13,7 @@ Ashe,Ashe,16.9.1,planned,planned,planned,planned,planned,lol-ashe,briefs/Ashe.md
 AurelionSol,Aurelion Sol,16.9.1,planned,planned,planned,planned,planned,lol-aurelionsol,briefs/AurelionSol.md,runs/16.9.1/AurelionSol,runs/16.9.1/AurelionSol/qa/contact-sheet.png,,
 Aurora,Aurora,16.9.1,planned,planned,planned,planned,planned,lol-aurora,briefs/Aurora.md,runs/16.9.1/Aurora,runs/16.9.1/Aurora/qa/contact-sheet.png,,
 Azir,Azir,16.9.1,planned,planned,planned,planned,planned,lol-azir,briefs/Azir.md,runs/16.9.1/Azir,runs/16.9.1/Azir/qa/contact-sheet.png,,
-Bard,Bard,16.9.1,planned,planned,planned,planned,planned,lol-bard,briefs/Bard.md,runs/16.9.1/Bard,runs/16.9.1/Bard/qa/contact-sheet.png,,
+Bard,Bard,16.9.1,accepted,accepted,accepted,accepted,accepted,lol-bard-v4,briefs/Bard.md,runs/16.9.1/Bard-v4,runs/16.9.1/Bard-v4/qa/contact-sheet.png,2026-05-12T16:18:27+08:00,"Regenerated from official Bard splash/loading/model references; QA passed; installed to ~/.codex/pets/lol-bard and cache-busting ~/.codex/pets/lol-bard-v4; running-left mirrored from running-right."
 Belveth,Bel'Veth,16.9.1,planned,planned,planned,planned,planned,lol-belveth,briefs/Belveth.md,runs/16.9.1/Belveth,runs/16.9.1/Belveth/qa/contact-sheet.png,,
 Blitzcrank,Blitzcrank,16.9.1,planned,planned,planned,planned,planned,lol-blitzcrank,briefs/Blitzcrank.md,runs/16.9.1/Blitzcrank,runs/16.9.1/Blitzcrank/qa/contact-sheet.png,,
 Brand,Brand,16.9.1,planned,planned,planned,planned,planned,lol-brand,briefs/Brand.md,runs/16.9.1/Brand,runs/16.9.1/Brand/qa/contact-sheet.png,,

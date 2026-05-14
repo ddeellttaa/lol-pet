@@ -35,7 +35,7 @@ Q/W/E/R 状态枚举：`planned`、`briefed`、`generated`、`needs-repair`、`a
 | [ ] | Aurelion Sol (AurelionSol) | planned | planned | planned | planned | planned | `lol-aurelionsol` | `briefs/AurelionSol.md` | `runs/16.9.1/AurelionSol/qa/contact-sheet.png` |
 | [ ] | Aurora (Aurora) | planned | planned | planned | planned | planned | `lol-aurora` | `briefs/Aurora.md` | `runs/16.9.1/Aurora/qa/contact-sheet.png` |
 | [ ] | Azir (Azir) | planned | planned | planned | planned | planned | `lol-azir` | `briefs/Azir.md` | `runs/16.9.1/Azir/qa/contact-sheet.png` |
-| [ ] | Bard (Bard) | planned | planned | planned | planned | planned | `lol-bard` | `briefs/Bard.md` | `runs/16.9.1/Bard/qa/contact-sheet.png` |
+| [x] | Bard (Bard) | accepted | accepted | accepted | accepted | accepted | `lol-bard-v4` | `briefs/Bard.md` | `runs/16.9.1/Bard-v4/qa/contact-sheet.png` |
 | [ ] | Bel'Veth (Belveth) | planned | planned | planned | planned | planned | `lol-belveth` | `briefs/Belveth.md` | `runs/16.9.1/Belveth/qa/contact-sheet.png` |
 | [ ] | Blitzcrank (Blitzcrank) | planned | planned | planned | planned | planned | `lol-blitzcrank` | `briefs/Blitzcrank.md` | `runs/16.9.1/Blitzcrank/qa/contact-sheet.png` |
 | [ ] | Brand (Brand) | planned | planned | planned | planned | planned | `lol-brand` | `briefs/Brand.md` | `runs/16.9.1/Brand/qa/contact-sheet.png` |

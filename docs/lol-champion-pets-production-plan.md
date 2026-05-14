@@ -39,6 +39,48 @@ https://ddragon.leagueoflegends.com/cdn/<version>/img/spell/<spell-full-filename
 
 默认使用 `en_US` 作为规范数据源，因为技能名和 champion id 最稳定。后续如果要做中文目录，可以额外加本地化展示名，但 pet id、数据版本和技能映射仍然绑定 Riot 的 canonical champion id。
 
+### 1.1 视觉参考资料必须先查
+
+Data Dragon JSON 只够提供英雄 ID、技能名和技能描述，不够保证长相正确。生成任何英雄前，必须先上网查一轮视觉资料，整理成 `references/<champion-id-lowercase>/` 的参考包，再写 brief 和 prompt。英雄联盟英雄资料在网上很全，不要靠模型印象或只靠技能图标猜外形。
+
+参考资料优先级：
+
+| 优先级 | 来源 | 用途 |
+| --- | --- | --- |
+| 1 | Riot 官方 champion page | 确认英雄主视觉、称号、基础身份感 |
+| 2 | Data Dragon splash / loading | 获取 base skin 的正统配色、轮廓、服装、武器 |
+| 3 | Khada / modelviewer.lol 3D 模型 | 检查背面、侧面、身体结构、容易被 splash 光影遮住的细节 |
+| 4 | League of Graphs / Wiki / community screenshots | 交叉验证模型或 splash 中看不清的道具和形体 |
+| 5 | 皮肤站或二创图 | 只做辅助，不作为 base skin 权威来源 |
+
+每个英雄至少保存或记录：
+
+```text
+references/<champion-id-lowercase>/
+├── ddragon-<champion-id>-splash.jpg
+├── ddragon-<champion-id>-loading.jpg
+├── modelviewer-<skin-id>.png        # 若能成功截图模型
+└── reference-notes.md               # 若某些资料只记录 URL 和观察结论
+```
+
+常用 URL 模板：
+
+```text
+https://www.leagueoflegends.com/en-us/champions/<champion-slug>/
+https://ddragon.leagueoflegends.com/cdn/img/champion/splash/<ChampionId>_0.jpg
+https://ddragon.leagueoflegends.com/cdn/img/champion/loading/<ChampionId>_0.jpg
+https://modelviewer.lol/model-viewer?id=<skin-id>
+```
+
+`skin-id` 通常可以从 Data Dragon 单英雄 JSON 的 `skins[0].id` 取得。比如 Bard 的 base skin 是 `432000`，对应模型页是 `https://modelviewer.lol/model-viewer?id=432000`。
+
+研究输出必须落到 brief 里：
+
+- `Reference Pack`：列出官方页面、splash、loading、model viewer、保存到本地的参考图路径。
+- `Must keep`：一到三个最重要的外形锚点。
+- `Must not`：这次资料明确排除的误读。例如 Bard 不是戴帽子、不是铃铛挂饰、不是人脸面具、胡子不能遮住嘴。
+- `Prompt Notes`：不要只写“League of Legends <Champion>”，而要写可检查的形体、颜色、道具、负面约束。
+
 ## 2. Fan Project 与版权边界
 
 这个项目按个人、非商业 fan project 处理。
@@ -139,6 +181,15 @@ Champion id: <ChampionId>
 Display name: <Champion Name>
 Pet package id: lol-<champion-id-lowercase>
 
+## Reference Pack
+
+- Riot official page:
+- Official splash:
+- Official loading crop:
+- Model viewer:
+- Local references:
+- Notes from visual research:
+
 ## Identity
 
 - Core silhouette:
@@ -165,6 +216,7 @@ Pet package id: lol-<champion-id-lowercase>
 
 ## QA Checklist
 
+- [ ] Reference Pack 已查并写入 brief。
 - [ ] Same silhouette and palette across all rows.
 - [ ] Q row reads as the Q ability without text or detached icons.
 - [ ] W row reads as the W ability without text or detached icons.
@@ -222,19 +274,44 @@ manifest 最少字段：
 }
 ```
 
-### 6.2 生成 Brief
+### 6.2 建立视觉参考包
+
+在写 brief 之前先建立 `references/<champion-id-lowercase>/`。这一步是质量门槛，不是可选优化。
+
+步骤：
+
+1. 打开 Riot 官方 champion page，确认英雄基础身份和主视觉。
+2. 下载 Data Dragon splash 和 loading 图。
+3. 打开 Khada / modelviewer.lol 的 base skin 模型页，尽量截图或保存可用模型参考；如果 WebGL/headless 截图失败，在 brief 里记录失败原因和模型页 URL。
+4. 用其他资料交叉检查容易误画的细节：头部结构、脸是否是面具、武器左右手、尾巴/角/翅膀/坐骑、身上是否真有某个装饰。
+5. 把“会误导 imagegen 的东西”写成负面约束。比如 Bard 的修复记录：不能有帽子、铃铛/风铃、圣诞老人脸、被胡子完全挡住的嘴、泛用蓝绿色法袍。
+
+Bard 修复使用过的参考包示例：
+
+```text
+references/bard/ddragon-bard-splash.jpg
+references/bard/ddragon-bard-loading.jpg
+references/bard/khada-bard-circle-432000.webp
+references/bard/modelviewer-432000.png
+```
+
+如果一个英雄第一版生成后“不像”，不要先盲目调 prompt；先回到这一节补资料，重新写 brief，再生成。
+
+### 6.3 生成 Brief
 
 从 manifest 为每个英雄生成 `briefs/<champion-id>.md`。
 
 规则：
 
+- brief 必须引用 6.2 的参考包，不能只引用 Data Dragon JSON。
 - 每个 Q/W/E/R 只选一个可读 cue。
 - 优先用英雄姿势、轮廓和道具表达，不用大面积粒子。
 - 技能颜色只有在足够标志性且不影响 chroma-key 时才写入 prompt。
 - 多形态英雄默认用 base skin 最常见形态；如果 R 是变身，可以在 `review` 行做小幅终极形态提示。
 - 复杂机制写成解释，不要硬塞进 192x208 小格。
+- prompt 采用“英雄身份 + 视觉锚点 + 禁止误读”的结构。不要只写“LoL <Champion>”，因为 imagegen 可能会把英雄概念误读成泛用职业、皮肤或相似角色。
 
-### 6.3 先做 Pilot Batch
+### 6.4 先做 Pilot Batch
 
 全量生产前先做 5 个试点：
 
@@ -248,7 +325,7 @@ manifest 最少字段：
 
 5 个试点必须都能安装进 Codex，并且 contact sheet 通过视觉审查，才进入批量生产。
 
-### 6.4 生成单个 Pet
+### 6.5 生成单个 Pet
 
 使用已安装的 `hatch-pet` skill。父进程负责 manifest、记录 imagegen 结果、repair、finalize 和最终包写入；base 生成完成后，行图生成按 `hatch-pet` 规范交给子 agent 并行。子 agent 只负责生成并返回原始 `$CODEX_HOME/generated_images/.../ig_*.png` 路径，不修改 manifest、不复制 decoded 文件、不 finalize。
 
@@ -264,10 +341,14 @@ python "$SKILL_DIR/scripts/prepare_pet_run.py" \
   --pet-id "$PET_ID" \
   --display-name "LoL <Champion Name>" \
   --description "A Codex pet inspired by <Champion Name>, with Q/W/E/R ability cues." \
+  --reference "$PWD/references/<champion-id-lowercase>/ddragon-<champion-id-lowercase>-splash.jpg" \
+  --reference "$PWD/references/<champion-id-lowercase>/ddragon-<champion-id-lowercase>-loading.jpg" \
   --output-dir "$PWD/runs/<version>/$CHAMPION_ID" \
   --pet-notes "$(cat briefs/$CHAMPION_ID.md)" \
   --force
 ```
+
+如果有模型截图或可靠裁剪图，也一起作为 `--reference` 传入。参考图越贴近 base skin，后续行图越不容易身份漂移。
 
 检查待生成 job：
 
@@ -323,7 +404,7 @@ runs/<version>/<champion-id>/
     └── videos/*.mp4
 ```
 
-### 6.5 最小范围修复
+### 6.6 最小范围修复
 
 验证或视觉审查失败时，先修坏掉的行，不重做整只 pet：
 
@@ -338,11 +419,12 @@ python "$SKILL_DIR/scripts/queue_pet_repairs.py" \
 | --- | --- |
 | 行之间英雄身份漂移 | 只重生成漂移行，加强 identity lock |
 | Q/W/E/R cue 看不懂 | 简化成一个贴身姿势或硬边小特效 |
+| 第一版整体不像英雄 | 先补 6.2 视觉参考包，重写 brief，再整只重生成 |
 | 出现离体粒子、阴影、速度线 | 去掉特效，改用姿势和轮廓表达 |
 | `running-left` 镜像破坏不对称武器/标记 | 不镜像，重生成 `running-left` |
 | contact sheet 出现白底、裁切、guide mark | 重生成对应行，加强透明背景和 cell 边界要求 |
 
-### 6.6 接受并入库
+### 6.7 接受并入库
 
 一只 pet 必须同时满足：
 
@@ -355,6 +437,20 @@ python "$SKILL_DIR/scripts/queue_pet_repairs.py" \
 - 没有文字、技能图标、UI 符号、离体粒子云、投影、guide mark。
 - 能在 Codex Settings -> Appearance / Pets 中选中。
 - `/pet` 能唤醒这只 pet。
+
+安装后要确认最终图集确实复制到 Codex 目录：
+
+```bash
+shasum -a 256 \
+  "$PWD/runs/<version>/$CHAMPION_ID/final/spritesheet.webp" \
+  "${CODEX_HOME:-$HOME/.codex}/pets/$PET_ID/spritesheet.webp"
+```
+
+如果哈希一致但 Codex 界面仍显示旧图，通常是同一个 custom pet id 的图片缓存没有刷新。处理方式：
+
+1. 优先重开宠物选择器或重启 Codex。
+2. 仍不刷新时，安装一个带版本后缀的新 package id，例如 `lol-bard-v4`，让 Codex 读取新目录。
+3. 不要删除旧包来“修复”缓存；先保留旧包，确认新包可选、可唤醒后再清理。
 
 验收后更新：
 
@@ -450,8 +546,11 @@ catalog/pets-status.csv
 
 - [ ] 刷新或确认 Data Dragon source version。
 - [ ] 确认 champion id、display name、passive、Q/W/E/R 技能数据。
+- [ ] 上网查 Riot 官方页、Data Dragon splash/loading、modelviewer 或其他可靠模型/截图资料。
+- [ ] 保存 `references/<champion-id-lowercase>/` 参考包，或在 notes 中记录无法保存的 URL 和原因。
 - [ ] 写或重生成 `briefs/<champion-id>.md`。
 - [ ] 选择一个最重要的英雄身份视觉锚点。
+- [ ] 写清楚 `must not` 误读项，特别是帽子、面具、武器、坐骑、尾巴、角、翅膀等高风险细节。
 - [ ] 为 Q、W、E、R 各选择一个紧凑 cue。
 - [ ] 运行 `prepare_pet_run.py`。
 - [ ] 生成并记录 base image。
@@ -472,8 +571,10 @@ catalog/pets-status.csv
 - [ ] 确认 `final/validation.json` 没有 errors。
 - [ ] 如果有失败行，按最小范围 repair。
 - [ ] 安装到 `${CODEX_HOME:-$HOME/.codex}/pets/lol-<champion-id>/`。
+- [ ] 用 `shasum -a 256` 确认 run 图集和 Codex 安装图集一致。
 - [ ] 在 Codex Settings -> Appearance / Pets 里选择。
 - [ ] 用 `/pet` 唤醒。
+- [ ] 如果界面仍显示旧图，重启 Codex；必要时用新 package id 重新安装。
 - [ ] 更新 `catalog/pets-status.csv`。
 - [ ] 更新 `docs/champion-pet-todo.md`。
 
@@ -495,4 +596,6 @@ catalog/pets-status.csv
 - Reddit Codex pet 流程：<https://www.reddit.com/r/codex/comments/1t2rbbh/a_simple_guide_to_create_a_custom_pet_in_codex/>
 - Riot Data Dragon 文档：<https://developer.riotgames.com/docs/lol#data-dragon>
 - Riot fan-project policy：<https://www.riotgames.com/en/legal>
+- Riot 官方 champion 页面：<https://www.leagueoflegends.com/en-us/champions/>
+- Khada model viewer：<https://modelviewer.lol/>
 - 本地 `hatch-pet` skill：`${CODEX_HOME:-$HOME/.codex}/skills/hatch-pet/SKILL.md`
