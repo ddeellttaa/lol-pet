@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "run_dir": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai",
+  "spritesheet": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/final/spritesheet.webp",
+  "validation": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/final/validation.json",
+  "contact_sheet": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/qa/contact-sheet.png",
+  "review": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/qa/review.json",
+  "videos": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/qa/videos",
+  "package": "/Users/zhangbowen/.codex/pets/lol-reksai"
+}

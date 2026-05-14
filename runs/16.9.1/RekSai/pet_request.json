@@ -1,0 +1,235 @@
+{
+  "pet_id": "lol-reksai",
+  "display_name": "LoL Rek'Sai",
+  "description": "A Codex pet inspired by Rek'Sai, with Q/W/E/R ability cues.",
+  "created_at": "2026-05-14T07:16:17.256457+00:00",
+  "atlas": {
+    "columns": 8,
+    "rows": 9,
+    "cell_width": 192,
+    "cell_height": 208,
+    "width": 1536,
+    "height": 1872
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6,
+      "purpose": "neutral breathing/blinking loop"
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8,
+      "purpose": "rightward locomotion loop"
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8,
+      "purpose": "leftward locomotion loop"
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4,
+      "purpose": "greeting gesture with raised wave and return"
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5,
+      "purpose": "anticipation, lift, peak, descent, settle"
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8,
+      "purpose": "sad, failed, or deflated reaction"
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6,
+      "purpose": "patient waiting loop with small motion"
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6,
+      "purpose": "generic in-place running loop"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6,
+      "purpose": "focused inspecting or review loop"
+    }
+  ],
+  "layout_guides": [
+    {
+      "state": "idle",
+      "path": "references/layout-guides/idle.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-right",
+      "path": "references/layout-guides/running-right.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-left",
+      "path": "references/layout-guides/running-left.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waving",
+      "path": "references/layout-guides/waving.png",
+      "width": 768,
+      "height": 208,
+      "frames": 4,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "jumping",
+      "path": "references/layout-guides/jumping.png",
+      "width": 960,
+      "height": 208,
+      "frames": 5,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "failed",
+      "path": "references/layout-guides/failed.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waiting",
+      "path": "references/layout-guides/waiting.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running",
+      "path": "references/layout-guides/running.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "review",
+      "path": "references/layout-guides/review.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    }
+  ],
+  "references": [
+    {
+      "path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/references/reference-01.jpg",
+      "width": 1215,
+      "height": 717,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "/Users/zhangbowen/code/fun/pet/references/reksai/ddragon-reksai-splash.jpg",
+      "copied_path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/references/reference-01.jpg"
+    },
+    {
+      "path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/references/reference-02.jpg",
+      "width": 308,
+      "height": 560,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "/Users/zhangbowen/code/fun/pet/references/reksai/ddragon-reksai-loading.jpg",
+      "copied_path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/references/reference-02.jpg"
+    },
+    {
+      "path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/references/reference-03.png",
+      "width": 1600,
+      "height": 1100,
+      "mode": "RGB",
+      "format": "PNG",
+      "source_path": "/Users/zhangbowen/code/fun/pet/references/reksai/modelviewer-421000.png",
+      "copied_path": "/Users/zhangbowen/code/fun/pet/runs/16.9.1/RekSai/references/reference-03.png"
+    }
+  ],
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "name": "green",
+    "selection": "auto",
+    "score": 209.83
+  },
+  "pet_notes": "# Rek'Sai Pet Brief\n\nSource patch: 16.9.1\nChampion id: RekSai\nDisplay name: Rek'Sai\nPet package id: lol-reksai\n\n## Reference Pack\n\n- Riot official page: https://www.leagueoflegends.com/en-us/champions/reksai/\n- Official splash: `references/reksai/ddragon-reksai-splash.jpg`\n- Official loading crop: `references/reksai/ddragon-reksai-loading.jpg`\n- Champion icon: `references/reksai/ddragon-reksai-icon.png`\n- Model viewer: https://modelviewer.lol/model-viewer?id=421000\n- Local model screenshot: `references/reksai/modelviewer-421000.png`\n- Notes from visual research: `references/reksai/reference-notes.md`\n\n## Identity\n\n- Core silhouette: compact quadrupedal Void burrower with a low predatory stance, tall central forehead horn, broad crescent-like foreclaws, hunched back armor plates, purple side mandibles, pale lower fangs, and dark rear claws.\n- Palette: deep void purple body, saturated cyan-blue carapace plates, magenta horn and mandible accents, dark indigo claws, and tiny pale yellow-white teeth.\n- Face/personality: eyeless underground apex predator; hungry, alert, and alien, but simplified into a readable Codex pet.\n- Must-keep prop or body feature: central horn, sweeping side mandibles, huge foreclaws, low four-limbed body, and blue-purple Void palette must stay readable in every row.\n- Simplify/remove: remove fine armor seams, background sand, tunnels as separate scenery, loose void mist, large shockwaves, shadows, UI marks, spell icons, and any skin-specific alternate colors.\n\n## Ability Mapping\n\n| Ability | Spell name | Codex row | Pet-sized visual cue | Forbidden interpretation |\n| --- | --- | --- | --- | --- |\n| Q | Queen's Wrath / Prey Seeker | `waving` | three-frame close claw swipe or head-snap pose using the attached foreclaws and mandibles | Detached slash rings, floating projectiles, reveal icons, enemies, or ranged missiles |\n| W | Burrow / Un-burrow | `waiting` | low crouched burrow-ready posture with the horn and back plates dipping down, then lifting slightly | Separate tunnel holes, sand piles, dust clouds, floor marks, or underground cross-sections |\n| E | Furious Bite / Tunnel | `jumping` | compact bite-lunge with mandibles open and foreclaws tucked close | Separate target, tunnel entrance prop, speed lines, blood, damage numbers, or loose earth chunks |\n| R | Void Rush | `review` | focused pouncing stance with body compressed forward and a tiny attached hard-edged purple energy accent on the horn or chest | Huge aura, teleport ring, target mark, enemy silhouette, shadow trail, or detached void cloud |\n\n## Prompt Notes\n\n- Base pet prompt: A tiny chibi Codex digital pet version of League of Legends Rek'Sai, the Void Burrower: low quadrupedal alien Void predator with a tall central magenta forehead horn, sweeping purple side mandibles, broad blue crescent foreclaws, hunched cyan-blue armor plates, dark indigo rear claws, pale lower fangs, eyeless face, compact four-limbed body, deep purple and cyan Void palette. Pixel-art-adjacent flat cel shading, thick dark outline, limited palette, no text, no Riot logo, no scenery.\n- Row identity lock: keep the same central horn, side mandibles, huge foreclaws, low quadrupedal body, hunched back plates, pale fangs, and blue-purple palette in every row.\n- Chroma-key risk: Rek'Sai uses purple, magenta, blue, and cyan, so use a flat saturated green background and avoid green anywhere in the pet.\n- Running-left mirror decision: likely safe only if the row has no side-specific lighting or asymmetrical markings; inspect `running-right` before mirroring.\n\n## QA Checklist\n\n- [ ] Reference Pack checked and written into brief.\n- [ ] Same silhouette and palette across all rows.\n- [ ] Clearly reads as League of Legends Rek'Sai, not a generic dragon, crab, beetle, dog, or dinosaur.\n- [ ] Central horn, side mandibles, huge foreclaws, low quadrupedal body, and pale fangs remain readable.\n- [ ] Q row reads as Queen's Wrath / Prey Seeker without text or detached icons.\n- [ ] W row reads as Burrow / Un-burrow without text or detached icons.\n- [ ] E row reads as Furious Bite / Tunnel without text or detached icons.\n- [ ] R row reads as Void Rush without text or detached icons.\n- [ ] Failed row is an app error/reaction state, not confused with Q/W/E/R.\n- [ ] Contact sheet has no cropped bodies, white boxes, guide marks, shadows, or loose particles.\n- [ ] `qa/review.json` has no errors.\n- [ ] `final/validation.json` has no errors.",
+  "style_notes": "LoL champion fan pet. Compact chibi Codex digital pet; Rek'Sai quadrupedal Void predator identity; no Riot logo, no text, no detached spell icons.",
+  "house_style": "Codex digital pet sprite style: pixel-art-adjacent low-resolution mascot sprite, compact chibi proportions, chunky whole-body silhouette, thick dark 1-2 px outline, visible stepped/pixel edges, limited palette, flat cel shading with at most one small highlight and one shadow step, simple readable face, tiny limbs, and no detail that disappears at 192x208. Avoid polished illustration, painterly rendering, anime key art, 3D render, vector app-icon polish, glossy lighting, soft gradients, realistic fur or material texture, anti-aliased high-detail edges, and complex tiny accessories.",
+  "primary_generation_skill": "$imagegen",
+  "canonical_identity_reference": {
+    "path": "references/canonical-base.png",
+    "source_job": "base",
+    "sha256": "3619a24bc7693b123810f85009e3b15fa9ce16c86ec8b16ccc31fbeddb4139d2",
+    "metadata": {
+      "width": 1206,
+      "height": 1305,
+      "mode": "RGB",
+      "format": "PNG"
+    }
+  }
+}

@@ -126,7 +126,7 @@ Q/W/E/R 状态枚举：`planned`、`briefed`、`generated`、`needs-repair`、`a
 | [ ] | Quinn (Quinn) | planned | planned | planned | planned | planned | `lol-quinn` | `briefs/Quinn.md` | `runs/16.9.1/Quinn/qa/contact-sheet.png` |
 | [ ] | Rakan (Rakan) | planned | planned | planned | planned | planned | `lol-rakan` | `briefs/Rakan.md` | `runs/16.9.1/Rakan/qa/contact-sheet.png` |
 | [ ] | Rammus (Rammus) | planned | planned | planned | planned | planned | `lol-rammus` | `briefs/Rammus.md` | `runs/16.9.1/Rammus/qa/contact-sheet.png` |
-| [ ] | Rek'Sai (RekSai) | planned | planned | planned | planned | planned | `lol-reksai` | `briefs/RekSai.md` | `runs/16.9.1/RekSai/qa/contact-sheet.png` |
+| [x] | Rek'Sai (RekSai) | accepted | accepted | accepted | accepted | accepted | `lol-reksai` | `briefs/RekSai.md` | `runs/16.9.1/RekSai/qa/contact-sheet.png` |
 | [ ] | Rell (Rell) | planned | planned | planned | planned | planned | `lol-rell` | `briefs/Rell.md` | `runs/16.9.1/Rell/qa/contact-sheet.png` |
 | [ ] | Renata Glasc (Renata) | planned | planned | planned | planned | planned | `lol-renata` | `briefs/Renata.md` | `runs/16.9.1/Renata/qa/contact-sheet.png` |
 | [ ] | Renekton (Renekton) | planned | planned | planned | planned | planned | `lol-renekton` | `briefs/Renekton.md` | `runs/16.9.1/Renekton/qa/contact-sheet.png` |
