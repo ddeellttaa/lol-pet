@@ -13,8 +13,8 @@ Q/W/E/R 状态枚举：`planned`、`briefed`、`generated`、`needs-repair`、`a
 
 ## 汇总
 
-- accepted pets: 3
-- not accepted pets: 169
+- accepted pets: 9
+- not accepted pets: 163
 - total champions: 172
 
 ## 英雄清单
@@ -180,7 +180,7 @@ Q/W/E/R 状态枚举：`planned`、`briefed`、`generated`、`needs-repair`、`a
 | [ ] | Xayah (Xayah) | planned | planned | planned | planned | planned | `lol-xayah` | `briefs/Xayah.md` | `runs/16.9.1/Xayah/qa/contact-sheet.png` |
 | [ ] | Xerath (Xerath) | planned | planned | planned | planned | planned | `lol-xerath` | `briefs/Xerath.md` | `runs/16.9.1/Xerath/qa/contact-sheet.png` |
 | [ ] | Xin Zhao (XinZhao) | planned | planned | planned | planned | planned | `lol-xinzhao` | `briefs/XinZhao.md` | `runs/16.9.1/XinZhao/qa/contact-sheet.png` |
-| [ ] | Yasuo (Yasuo) | planned | planned | planned | planned | planned | `lol-yasuo` | `briefs/Yasuo.md` | `runs/16.9.1/Yasuo/qa/contact-sheet.png` |
+| [x] | Yasuo (Yasuo) | accepted | accepted | accepted | accepted | accepted | `lol-yasuo` | `briefs/Yasuo.md` | `runs/16.9.1/Yasuo/qa/contact-sheet.png` |
 | [ ] | Yone (Yone) | planned | planned | planned | planned | planned | `lol-yone` | `briefs/Yone.md` | `runs/16.9.1/Yone/qa/contact-sheet.png` |
 | [ ] | Yorick (Yorick) | planned | planned | planned | planned | planned | `lol-yorick` | `briefs/Yorick.md` | `runs/16.9.1/Yorick/qa/contact-sheet.png` |
 | [ ] | Yunara (Yunara) | planned | planned | planned | planned | planned | `lol-yunara` | `briefs/Yunara.md` | `runs/16.9.1/Yunara/qa/contact-sheet.png` |

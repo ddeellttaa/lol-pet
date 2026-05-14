@@ -517,7 +517,7 @@ docs/champion-pet-todo.md
 catalog/pets-status.csv
 ```
 
-当前进度：`16.9.1` 共 `172` 个英雄，`accepted = 3`，`not accepted = 169`。已完成：Aatrox、Darius、Gragas。每完成一只 pet，就同步更新对应英雄行的 checkbox、`status`、`accepted_at` 和 notes。
+当前进度：`16.9.1` 共 `172` 个英雄，`accepted = 9`，`not accepted = 163`。已完成：Aatrox、Aphelios、Bard、Darius、Gragas、Neeko、Rek'Sai、Syndra、Yasuo。每完成一只 pet，就同步更新对应英雄行的 checkbox、`status`、`accepted_at` 和 notes。
 
 - [x] 创建 `data/ddragon/` 版本化缓存目录。
 - [ ] 增加数据刷新脚本：抓取最新 Data Dragon 版本、英雄索引、单英雄 JSON。
